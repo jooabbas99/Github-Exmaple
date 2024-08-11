@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/52ovDJjOENX
+-->
+
+<div class="flex min-h-[100dvh] items-center justify-center bg-background px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mx-auto w-full max-w-md space-y-4">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-foreground">Sign in to your account</h2>
+        <p class="mt-2 text-sm text-muted-foreground">
+          Don't have an account?{" "}
+          <a href="#" class="font-medium text-primary hover:underline">
+            Sign up
+          </a>
+        </p>
+      </div>
+      <div class="bg-card rounded-lg shadow-sm ring-1 ring-border">
+        <div class="px-6 py-8">
+          <form class="space-y-4">
+            <div>
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 sr-only"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                id="email"
+                placeholder="Email"
+                type="email"
+              />
+            </div>
+            <div>
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 sr-only"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                id="password"
+                placeholder="Password"
+                type="password"
+              />
+            </div>
+            <button
+              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+              type="submit"
+            ></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
